@@ -30,7 +30,7 @@ function App() {
     const contacts = storage.get('contacts');
 
     if (contacts) {
-      dispatch({ type: 'setStoreg', payload: { contacts } });
+      dispatch({ type: 'setStorage', payload: { contacts } });
     }
   }, []);
 
